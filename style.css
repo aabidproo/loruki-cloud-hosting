@@ -1,0 +1,74 @@
+/* Header */
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+/* Showcase */
+
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0px;
+}
+
+.showcase .grid {
+    overflow: visible;
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+.showcase-form {
+    position: relative;
+    top: 100px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+}
+
+.showcase-form h2 {
+    margin-bottom: 20px;
+}
+
+.showcase-form .form-control {
+    margin: 10px 0;
+}
+
+.showcase::before,
+.showcase::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    transform: skewY(-3deg);
+}
