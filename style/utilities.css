@@ -56,6 +56,8 @@
     cursor: pointer;
     background-color: var(--primary-color);
     color: #fff;
+    font-size: 14px;
+    font-weight: 400;
     border: none;
     border-radius: 2px;
     transition: all 0.2s ease;
@@ -70,18 +72,3 @@
 .btn:hover {
     transform: scale(0.98);
 }
-
-/* .btn-primary {
-    border: 0;
-    background-color: #333;
-    color: #fff;
-    padding: 12px 40px;
-    font-size: 14px;
-    font-weight: 400px;
-}
-
-.btn-primary:hover {
-   background-color:  #0561be;
-   cursor: pointer;
-   transform: scale(5%,5%);
-} */
