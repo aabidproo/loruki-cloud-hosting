@@ -96,6 +96,10 @@
     color: var(--primary-color);
 }
 
+.stats .grid i {
+    color: var(--dark-color);
+}
+
 /* Cli */
 
 .cli {
