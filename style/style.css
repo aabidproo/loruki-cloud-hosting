@@ -40,8 +40,8 @@
 
 .showcase .grid {
     overflow: visible;
-    grid-template-columns: 55% 45%;
-    gap: 30px;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
 }
 
 .showcase-form {
